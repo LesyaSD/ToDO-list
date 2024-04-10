@@ -1,0 +1,25 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+main{
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.my-style{
+  border-radius: 5px;
+  border: solid 1px lightpink ;
+  padding: 15px;
+}
+.my-list{
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 100%;
+  grid-gap: 5px;
+
+}
